@@ -1,0 +1,13 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: db-extra
+  namespace: app
+spec:
+  encryptedData:
+    password: AgBI2NaK4ShgD0W3uqEvVv9evTslgsuQ/dhs6/YbfTkH8CWEPLn/BUQUAkNjv8BF7VSaV5QJ4iz6dcOC04uXM7mfCjlCA1WOT3i+mF1MwdeLom/L5tyKanWAHYZmci0lASrf4ofmRya67E3FPVnbl72XeHUyhhpoyQHsKQNAiVqOvBxHeWpK48DPeud97D9HiqB78CI1JKwEid0RXeRbwGMJEVExkCQOouYTs0Uwu3ciWIga8Z42Ao/5BZxgd9QsKRCUlBGkhTl9o//KjwL0SCLqQ9x9n6IxSAHbXNO7CesXOihxoSwMvJ7VBU4RGXVJHhYMQSV+j/QS3gIpjHwgnr2mwFWUCFEJUkHonYifPoQ1ne/EwipvO+ezAi3BeCf+inXL6s7Vz8Z6rs1MuZ+RlEchpT0Qd1L58JaUo57bvsaOfk/85uUjngTe1bINUbUM59kyMgtoNJbt80bMVbulGtlODKey+qrGdmq0VxbXE9ohOfWIJ2e24F2tdmp6S3KLFNzSaFka3Q+Si7jILVUqM9aW4nnw0VGW6N52tV0DL2eo1tiSURP4P1p3USZ1bXzixrmC2Krb5c6mMCdKlf41jLlX3qMYrrCZzVdaGNoS9a+qf71Wf7OPj8e3vNjpu02s6e/NaNQZzPYkQoivhgMeBhvz7FOpM4kIorF1wywW2NiHvgLegku0hJiEQON6AME+JqX8g60V8JMzZzwi
+  template:
+    metadata:
+      name: db-extra
+      namespace: app
